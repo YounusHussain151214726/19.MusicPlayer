@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: url(../../Images/backGround.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .music-container {
+  width: 20vw;
+  height: auto;
+  background-color: rgba(130, 117, 117, 0.8);
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 5px 10px rgba(126, 111, 111, 0.2);
+}
+main .music-container .image-div {
+  width: 150px;
+  height: 150px;
+  border-radius: 1rem;
+  margin: 0 auto;
+}
+main .music-container .image-div img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+main .music-container .names {
+  text-align: center;
+  position: relative;
+  top: 1rem;
+}
+main .music-container .names h2 {
+  font-size: 1rem;
+}
+main .music-container .music-container-content {
+  margin: 4rem 0 4rem 0;
+}
+main .music-container .music-container-content .progress-container {
+  width: 100%;
+  height: 4px;
+  background-color: black;
+  border-radius: 4rem;
+}
+main .music-container .music-container-content .progress-container .progress {
+  height: 100%;
+  width: 0%;
+  background-color: white;
+  border-radius: 4rem;
+}
+main .music-container .music-container-content .progress-container .duration {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: 1.5rem;
+}
+main .music-container .music-container-content .progress-container .controls {
+  text-align: center;
+  position: relative;
+  bottom: 0.5em;
+}
+main .music-container .music-container-content .progress-container .controls #back,
+main .music-container .music-container-content .progress-container .controls #play,
+main .music-container .music-container-content .progress-container .controls #next {
+  background-color: rgb(181, 202, 197);
+  font-size: 30px;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  color: rgb(92, 94, 95);
+}
+main .music-container .music-container-content .progress-container .controls #back:hover,
+main .music-container .music-container-content .progress-container .controls #play:hover,
+main .music-container .music-container-content .progress-container .controls #next:hover {
+  filter: brightness(80%);
+  color: white;
+  transform: scale(0.9);
+}/*# sourceMappingURL=Main.css.map */
